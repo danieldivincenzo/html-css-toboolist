@@ -4,42 +4,60 @@
     padding: 0;
 }
 
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 35px;
+}
+
 body {
-    background-color: antiquewhite;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(229, 235, 236);
+    font-family: Arial, Helvetica, sans-serif
 }
 
 header {
     background-color: white;
+    padding-left: 20px;
 }
 
-.container {
-    max-width: 900px;
-    margin: 0 auto;
+.todo-card {
     background-color: white;
     border-radius: 4px;
-    padding-left: 40px;
 }
 
 .upper-card {
-    margin-top: 40px;
-    margin-bottom: 30px;
-    padding-top: 12px;
+    padding: 13px 0;
+    border-bottom: 3px solid rgb(229, 235, 236);
+    padding-left: 40px;
 }
 
-button {
-    border-radius: 5px;
-    width: 75px;
-    height: 25px;
+.lower-card {
+    padding-bottom: 40px;
+    padding-left: 40px;
 }
 
 .task {
     background-color: rgb(51, 162, 236);
+    border-radius: 5px;
+    width: 75px;
+    height: 25px;
     border-width: 0;
+}
+
+.section {
+    border-width: 1px;
+    border-radius: 5px;
+    width: 90px;
+    height: 25px;
+    background-color: white;
 }
 
 ul {
     list-style: none;
+}
+
+li {
+    margin-top: 10px;
 }
 
 .list-titles {
@@ -48,43 +66,41 @@ ul {
 }
 
 .oval {
-    border: 1px;
     border-radius: 10px;
-    display: inline-block;
 }
 
 .blue {
     background-color: rgb(53, 138, 218);
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .orange {
     background-color: rgb(218, 124, 37);
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .acqua {
     background-color: rgb(39, 212, 189);
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .green {
     background-color: rgb(126, 224, 60);
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .pink {
     background-color: rgb(240, 132, 231);
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .purple {
     background-color: rgb(138, 62, 173);
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
