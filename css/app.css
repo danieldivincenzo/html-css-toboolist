@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: white;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 4px;
+    padding-left: 40px;
+}
+
+.upper-card {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding-top: 12px;
+}
+
+button {
+    border-radius: 5px;
+    width: 75px;
+    height: 25px;
+}
+
+.task {
+    background-color: rgb(51, 162, 236);
+    border-width: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.list-titles {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.oval {
+    border: 1px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.blue {
+    background-color: rgb(53, 138, 218);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.orange {
+    background-color: rgb(218, 124, 37);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.acqua {
+    background-color: rgb(39, 212, 189);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.green {
+    background-color: rgb(126, 224, 60);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pink {
+    background-color: rgb(240, 132, 231);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.purple {
+    background-color: rgb(138, 62, 173);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
